@@ -120,6 +120,9 @@ To vote, please visit our [Feature Voting Page (coming soon)](#).
 
 4. Create and migrate the database.
 
+On a mac it may be necessary to first use this line 
+`export NODE_OPTIONS=--openssl-legacy-provider` in order for the rails to compile properly	
+
     ```bash
     rails db:create db:migrate db:seed
     rails assets:precompile
